@@ -1,3 +1,8 @@
+<style>
+   tbody tr:nth-child(odd){
+    background-color: #F7FBFF;
+  }
+</style>
 
 ## 2018 USEPA R User Group Workshop Agenda
 
