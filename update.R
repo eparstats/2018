@@ -1,4 +1,4 @@
-file.copy("../epa_r_workshop_2018/README.md",to = ".")
+file.copy("../epa_r_workshop_2018/README.md",to = ".",overwrite = TRUE)
 knitr::knit2html("README.md",output = "index.html")
 system("git add -A")
 system("git commit -m 'update'")
