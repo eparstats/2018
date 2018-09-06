@@ -1,0 +1,5 @@
+file.copy("../epa_r_workshop_2018/README.md",to = ".")
+knitr::knit2html("README.md",output = "index.html")
+system("git add -A")
+system("git commit -m 'update'")
+system("git push origin master")
